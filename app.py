@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 
-#this is the offical page
+#this is the  NOT offical page
 @app.route("/",methods=['GET','POST'])
 def index():
     message = ''
