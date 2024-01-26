@@ -2,6 +2,9 @@ from flask import Flask,render_template,redirect,request
 
 app = Flask(__name__)
 
+
+
+#this is the offical page
 @app.route("/",methods=['GET','POST'])
 def index():
     message = ''
